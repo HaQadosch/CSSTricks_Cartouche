@@ -1,0 +1,23 @@
+{
+  "name": "CSSTricks_Cartouche",
+  "version": "1.0.0",
+  "description": "https://css-tricks.com/restricting-a-pseudo-element-to-its-parents-border-box/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaQadosch/CSSTricks_Cartouche.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaQadosch/CSSTricks_Cartouche/issues"
+  },
+  "homepage": "https://github.com/HaQadosch/CSSTricks_Cartouche#readme",
+  "dependencies": {
+    "create-react-app": "^3.0.1"
+  }
+}
