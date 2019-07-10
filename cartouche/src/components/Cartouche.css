@@ -1,0 +1,25 @@
+:root {
+  --w: 26em;
+  --h: 5em;
+  --b: 0.5em;
+  --p: 0.25em;
+  --slist: #ebac79, #d65b56;
+}
+
+p {
+  width: var(--w);
+  height: var(--h);
+  border-radius: calc(0.5 * var(--h));
+  background: silver;
+  font: 1.5em/ 1.375 trebuchet ms, verdana, sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border: solid var(--b) transparent;
+  padding: var(--p);
+  background: linear-gradient(#dbdbdb, #fff) content-box, linear-gradient(var(--slist)) padding-box,
+    linear-gradient(#fff, #dcdcdc) border-box;
+  text-indent: 1em;
+}
