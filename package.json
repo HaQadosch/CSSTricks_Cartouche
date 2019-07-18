@@ -1,10 +1,10 @@
 {
-  "name": "CSSTricks_Cartouche",
+  "name": "csstricks_cartouche",
   "version": "1.0.0",
   "description": "https://css-tricks.com/restricting-a-pseudo-element-to-its-parents-border-box/",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape"
   },
   "repository": {
     "type": "git",
